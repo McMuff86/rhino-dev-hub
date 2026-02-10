@@ -83,7 +83,7 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [RhinoAssemblyOutliner](https://github.com/McMuff86/RhinoAssemblyOutliner) | Assembly-Outliner Panel für hierarchische Baugruppen in Rhino | C# | 2026-02-06 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
+| [RhinoAssemblyOutliner](https://github.com/McMuff86/RhinoAssemblyOutliner) | Assembly-Outliner Panel für hierarchische Baugruppen in Rhino | C# | 2026-02-06 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ✅ |
 | [rhino_assemblytree](https://github.com/McMuff86/rhino_assemblytree) | Assembly-Tree Datenstruktur und Algorithmen | Python | 2025-08-09 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | — |
 | [ExplodeAssembly](https://github.com/McMuff86/ExplodeAssembly) | Explosionsdarstellungen für Baugruppen in Rhino | C# | 2025-03-01 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
 | [RhinoPartlistBrowser](https://github.com/McMuff86/RhinoPartlistBrowser) | Stücklisten-Browser für Rhino-Baugruppen | C# | 2025-03-02 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
@@ -109,8 +109,8 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [GlimpseAI](https://github.com/McMuff86/GlimpseAI) | AI-gestützte Analyse und Erkennung in Rhino | C# | 2026-02-08 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | — |
-| [rhinomcp](https://github.com/McMuff86/rhinomcp) | Model Context Protocol Server für Rhino 3D | Python | 2026-01-28 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
+| [GlimpseAI](https://github.com/McMuff86/GlimpseAI) | AI-gestützte Analyse und Erkennung in Rhino | C# | 2026-02-08 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | ✅ |
+| [rhinomcp](https://github.com/McMuff86/rhinomcp) | Model Context Protocol Server für Rhino 3D | Python | 2026-01-28 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ❌ |
 
 ### 📊 Data Management
 
@@ -124,7 +124,7 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [RhinoBIMifc](https://github.com/McMuff86/RhinoBIMifc) | BIM/IFC Import und Export für Rhino | TypeScript | 2025-10-15 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | — |
+| [RhinoBIMifc](https://github.com/McMuff86/RhinoBIMifc) | BIM/IFC Import und Export für Rhino | TypeScript | 2025-10-15 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | ❌ |
 
 ### 🔧 Specialized Tools
 
@@ -153,5 +153,5 @@ graph LR
 ---
 
 <!-- updated starts -->
-*Last auto-update: 2026-02-10 14:15 UTC*
+*Last auto-update: 2026-02-10 14:19 UTC*
 <!-- updated ends -->
