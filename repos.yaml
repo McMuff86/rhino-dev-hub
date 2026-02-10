@@ -1,0 +1,256 @@
+# rhino-dev-hub — Repository-Konfiguration
+# Manuelle Metadaten für alle Rhino-bezogenen Repos von McMuff86
+#
+# Felder:
+#   category:          Thematische Gruppierung
+#   short_description: Überschreibt GitHub-Description (optional)
+#   rhino_version:     Kompatibilität (7/8, 8, N/A)
+#   maturity:          active | maintained | experimental | archived
+#   relates_to:        Liste von verwandten Repos (für Mermaid-Diagramm)
+#   private:           true wenn Repo privat ist
+
+owner: McMuff86
+
+categories:
+  door-frame:
+    title: "Türen & Zargen"
+    icon: "🚪"
+  assembly-bom:
+    title: "Assembly & BOM"
+    icon: "🔩"
+  database-erp:
+    title: "Database & ERP"
+    icon: "🗄️"
+  cnc-cam:
+    title: "CNC / CAM"
+    icon: "⚙️"
+  ai:
+    title: "AI Integration"
+    icon: "🤖"
+  data-management:
+    title: "Data Management"
+    icon: "📊"
+  bim-ifc:
+    title: "BIM / IFC"
+    icon: "🏗️"
+  specialized:
+    title: "Specialized Tools"
+    icon: "🔧"
+  grasshopper:
+    title: "Grasshopper"
+    icon: "🦗"
+  showcase:
+    title: "Showcase"
+    icon: "🎯"
+
+repos:
+  # ── Türen & Zargen ──────────────────────────────────────────
+  RhinoLeaderTool:
+    category: door-frame
+    short_description: "Leader-Beschriftungen mit UserText (Key/Value) aus CSV für Türen & Zargen"
+    rhino_version: "7/8"
+    maturity: active
+    relates_to:
+      - tueren-plattform-starter
+      - RhinoBIMifc
+
+  tueren-plattform-starter:
+    category: door-frame
+    short_description: "FastAPI + React Plattform für Türen/Zargen-Verwaltung"
+    rhino_version: "N/A"
+    maturity: active
+    relates_to:
+      - RhinoLeaderTool
+      - RH_Excel_Link
+
+  # ── Assembly & BOM ──────────────────────────────────────────
+  RhinoAssemblyOutliner:
+    category: assembly-bom
+    short_description: "Assembly-Outliner Panel für hierarchische Baugruppen in Rhino"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - ExplodeAssembly
+      - RhinoPartlistBrowser
+
+  rhino_assemblytree:
+    category: assembly-bom
+    short_description: "Assembly-Tree Datenstruktur und Algorithmen"
+    rhino_version: "8"
+    maturity: experimental
+    relates_to:
+      - RhinoAssemblyOutliner
+
+  ExplodeAssembly:
+    category: assembly-bom
+    short_description: "Explosionsdarstellungen für Baugruppen in Rhino"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - RhinoAssemblyOutliner
+
+  RhinoPartlistBrowser:
+    category: assembly-bom
+    short_description: "Stücklisten-Browser für Rhino-Baugruppen"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - RhinoAssemblyOutliner
+
+  PartPluginforRhino:
+    category: assembly-bom
+    short_description: "Part-Management Plugin für Rhino"
+    rhino_version: "8"
+    maturity: maintained
+
+  # ── Database & ERP ──────────────────────────────────────────
+  RhinoERPBridge:
+    category: database-erp
+    short_description: "Bridge zwischen Rhino und ERP-Systemen"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - RH_DataBase
+      - RH_DB_Panel
+
+  RH_DataBase:
+    category: database-erp
+    short_description: "Datenbank-Anbindung für Rhino-Objekte"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - RhinoERPBridge
+      - RH_DB_Panel
+
+  RH_DB_Panel:
+    category: database-erp
+    short_description: "Datenbank-Panel UI für Rhino"
+    rhino_version: "8"
+    maturity: active
+    private: true
+    relates_to:
+      - RH_DataBase
+      - RhinoERPBridge
+
+  RHCoatingApp:
+    category: database-erp
+    short_description: "Beschichtungs-Verwaltung und Berechnung"
+    rhino_version: "8"
+    maturity: maintained
+
+  # ── CNC / CAM ──────────────────────────────────────────────
+  rh_caminterface:
+    category: cnc-cam
+    short_description: "CAM-Interface für Rhino (v1)"
+    rhino_version: "7/8"
+    maturity: maintained
+    relates_to:
+      - rh_caminterface_v2
+
+  rh_caminterface_v2:
+    category: cnc-cam
+    short_description: "CAM-Interface für Rhino (v2 — Rewrite)"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - rh_caminterface
+
+  # ── AI Integration ─────────────────────────────────────────
+  GlimpseAI:
+    category: ai
+    short_description: "AI-gestützte Analyse und Erkennung in Rhino"
+    rhino_version: "8"
+    maturity: experimental
+
+  rhinomcp:
+    category: ai
+    short_description: "Model Context Protocol Server für Rhino 3D"
+    rhino_version: "8"
+    maturity: active
+
+  # ── Data Management ────────────────────────────────────────
+  RH_Excel_Link:
+    category: data-management
+    short_description: "Bidirektionale Excel-Synchronisation für Rhino (ClosedXML)"
+    rhino_version: "7/8"
+    maturity: active
+    relates_to:
+      - tueren-plattform-starter
+
+  RhinoClassOrganizer:
+    category: data-management
+    short_description: "Klassen-basierte Organisation von Rhino-Objekten"
+    rhino_version: "8"
+    maturity: active
+    relates_to:
+      - MyRhinoClass
+
+  MyRhinoClass:
+    category: data-management
+    short_description: "Custom Class-Definitionen für Rhino-Objekte"
+    rhino_version: "8"
+    maturity: maintained
+    private: true
+    relates_to:
+      - RhinoClassOrganizer
+
+  # ── BIM / IFC ──────────────────────────────────────────────
+  RhinoBIMifc:
+    category: bim-ifc
+    short_description: "BIM/IFC Import und Export für Rhino"
+    rhino_version: "8"
+    maturity: experimental
+    relates_to:
+      - RhinoLeaderTool
+
+  # ── Specialized Tools ──────────────────────────────────────
+  RhinoBend:
+    category: specialized
+    short_description: "Biegeverformungs-Simulation in Rhino"
+    rhino_version: "8"
+    maturity: experimental
+    private: true
+
+  Moments_of_Inertia:
+    category: specialized
+    short_description: "Trägheitsmoment-Berechnung für Rhino-Geometrien"
+    rhino_version: "8"
+    maturity: maintained
+
+  QuaderGenerator:
+    category: specialized
+    short_description: "Parametrischer Quader-Generator"
+    rhino_version: "7/8"
+    maturity: maintained
+
+  RhinoARViewer:
+    category: specialized
+    short_description: "AR-Viewer Export für Rhino-Modelle"
+    rhino_version: "8"
+    maturity: experimental
+
+  RhinoTextExtractor:
+    category: specialized
+    short_description: "Text-Extraktion aus Rhino-Dokumenten"
+    rhino_version: "8"
+    maturity: maintained
+
+  # ── Grasshopper ────────────────────────────────────────────
+  store_renson_gh:
+    category: grasshopper
+    short_description: "Grasshopper-Definitionen für Renson Store Konfigurationen"
+    rhino_version: "7/8"
+    maturity: maintained
+
+  # ── Showcase ───────────────────────────────────────────────
+  rhino_advantages:
+    category: showcase
+    short_description: "Showcase: Vorteile von Rhino in der Fertigung"
+    rhino_version: "N/A"
+    maturity: maintained
+
+  va_template:
+    category: showcase
+    short_description: "VisualARQ Template für Rhino-Projekte"
+    rhino_version: "8"
+    maturity: maintained
