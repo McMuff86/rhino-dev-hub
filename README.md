@@ -83,7 +83,7 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [RhinoAssemblyOutliner](https://github.com/McMuff86/RhinoAssemblyOutliner) | Assembly-Outliner Panel für hierarchische Baugruppen in Rhino | C# | 2026-02-06 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ✅ |
+| [RhinoAssemblyOutliner](https://github.com/McMuff86/RhinoAssemblyOutliner) | Assembly-Outliner Panel für hierarchische Baugruppen in Rhino | C# | 2026-02-15 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ❌ |
 | [rhino_assemblytree](https://github.com/McMuff86/rhino_assemblytree) | Assembly-Tree Datenstruktur und Algorithmen | Python | 2025-08-09 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | — |
 | [ExplodeAssembly](https://github.com/McMuff86/ExplodeAssembly) | Explosionsdarstellungen für Baugruppen in Rhino | C# | 2025-03-01 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
 | [RhinoPartlistBrowser](https://github.com/McMuff86/RhinoPartlistBrowser) | Stücklisten-Browser für Rhino-Baugruppen | C# | 2025-03-02 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
@@ -93,7 +93,7 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [RhinoERPBridge](https://github.com/McMuff86/RhinoERPBridge) | Bridge zwischen Rhino und ERP-Systemen | C# | 2025-12-16 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
+| [RhinoERPBridge](https://github.com/McMuff86/RhinoERPBridge) | Bridge zwischen Rhino und ERP-Systemen | C# | 2026-02-13 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
 | [RH_DataBase](https://github.com/McMuff86/RH_DataBase) | Datenbank-Anbindung für Rhino-Objekte | C# | 2025-03-14 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
 | RH_DB_Panel *(private)* | Datenbank-Panel UI für Rhino | — | — | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | — |
 | [RHCoatingApp](https://github.com/McMuff86/RHCoatingApp) | Beschichtungs-Verwaltung und Berechnung | C# | 2025-10-22 | 8 | ![maintained](https://img.shields.io/badge/maintained-blue) | — |
@@ -109,7 +109,7 @@ graph LR
 
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
-| [GlimpseAI](https://github.com/McMuff86/GlimpseAI) | AI-gestützte Analyse und Erkennung in Rhino | C# | 2026-02-08 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | ✅ |
+| [GlimpseAI](https://github.com/McMuff86/GlimpseAI) | AI-gestützte Analyse und Erkennung in Rhino | C# | 2026-02-15 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | ✅ |
 | [rhinomcp](https://github.com/McMuff86/rhinomcp) | Model Context Protocol Server für Rhino 3D | Python | 2026-01-28 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ❌ |
 
 ### 📊 Data Management
@@ -153,5 +153,5 @@ graph LR
 ---
 
 <!-- updated starts -->
-*Last auto-update: 2026-02-10 14:19 UTC*
+*Last auto-update: 2026-02-16 06:35 UTC*
 <!-- updated ends -->
