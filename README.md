@@ -7,7 +7,7 @@
 
 Languages: **C#** (13) · **Python** (5) · **TS** (1) · **HTML** (1)
 
-12 actively developed · 5 experimental
+11 actively developed · 5 experimental
 <!-- overview ends -->
 
 ---
@@ -110,7 +110,7 @@ graph LR
 | Repo | Description | Language | Last Commit | Rhino | Status | CI |
 |------|-------------|----------|-------------|-------|--------|----|
 | [GlimpseAI](https://github.com/McMuff86/GlimpseAI) | AI-gestützte Analyse und Erkennung in Rhino | C# | 2026-02-15 | 8 | ![experimental](https://img.shields.io/badge/experimental-yellow) | ✅ |
-| [rhinomcp](https://github.com/McMuff86/rhinomcp) | Model Context Protocol Server für Rhino 3D | Python | 2026-01-28 | 8 | ![active](https://img.shields.io/badge/active-brightgreen) | ❌ |
+| [rhinomcp](https://github.com/McMuff86/rhinomcp) | Model Context Protocol Server für Rhino 3D | Python | 2026-01-28 | 8 | ![archived](https://img.shields.io/badge/archived-lightgrey) | ❌ |
 
 ### 📊 Data Management
 
@@ -153,5 +153,5 @@ graph LR
 ---
 
 <!-- updated starts -->
-*Last auto-update: 2026-02-23 06:35 UTC*
+*Last auto-update: 2026-03-02 06:30 UTC*
 <!-- updated ends -->
